@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #780000;
+    --lighter-red: #c1121f;
+    --beige: #fdf0d5;
+    --bluish: #003049;
+    --light-bluish: #669bbc;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--bluish);
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    border: 2px solid var(--bluish);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--beige);
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: var(--beige);
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.display p {
+    font-size: 2rem;
+    color: var(--bluish);
+}
+
+.display .correct {
+    font-size: 4rem;
+    color: var(--primary-color);
+    background-color: var(--beige);
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 -20px 10px -20px rgba(0, 0, 0, 0.45) inset, 20px -5px 10px -20px rgba(0, 0, 0, 1) inset;
+
+}
+
+.space input {
+    width: 300px;
+    height: 30px;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.buttons {}
+
+#submit {
+    margin-right: 50px;
+    margin-top: 30px;
+    height: 50px;
+    width: 140px;
+    border: 5px solid var(--primary-color);
+    background-color: var(--lighter-red);
+    color: var(--beige);
+    font-size: 2rem;
+    border-radius: 5px;
+    transition-property: all ease 3s;
+}
+
+#submit:hover {
+    border: 5px solid var(--bluish);
+    background-color: var(--light-bluish);
+    color: var(--primary-color);
+
+}
+
+#again {
+
+    height: 50px;
+    width: 140px;
+    border: 5px solid var(--bluish);
+    background-color: var(--light-bluish);
+    color: var(--primary-color);
+    font-size: 2rem;
+    border-radius: 5px;
+    transition-property: all ease-in 3s;
+
+}
+
+#again:hover {
+    border: 5px solid var(--primary-color);
+    background-color: var(--lighter-red);
+    color: var(--beige);
+}
