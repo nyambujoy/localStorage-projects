@@ -54,6 +54,7 @@ body {
 .display p {
     font-size: 2rem;
     color: var(--bluish);
+    padding-left: 10px;
 }
 
 .display .correct {
@@ -101,7 +102,7 @@ body {
 #again {
 
     height: 50px;
-    width: 140px;
+    width: 200px;
     border: 5px solid var(--bluish);
     background-color: var(--light-bluish);
     color: var(--primary-color);
@@ -115,4 +116,20 @@ body {
     border: 5px solid var(--primary-color);
     background-color: var(--lighter-red);
     color: var(--beige);
+}
+
+#new {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #003049;
+    color: var(--beige);
+    margin-right: 30px;
+}
+
+.bottom {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #0f0404;
 }
